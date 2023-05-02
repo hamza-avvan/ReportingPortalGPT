@@ -13,4 +13,4 @@ Then install the ruby dependencies and spin up the server:
 ```sh
 $ bundle install
 $ bin\rails server
-``
+```
