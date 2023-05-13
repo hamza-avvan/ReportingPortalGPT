@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   
   get 'vulnerability/index'
   get '/vulnerability/', to: 'vulnerability#index'
+  get '/vulnerability/filter/approve', to: 'vulnerability#filter', as: 'vuln_filter_approve'
   get '/vulnerability/export', to: 'vulnerability#export', as: 'vuln_export'
   
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
