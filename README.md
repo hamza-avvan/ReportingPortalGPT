@@ -51,6 +51,8 @@ Spin up your server:
 bin\rails server
 ```
 
+-------------------------------------------------------
+
 ## ❤️ Support & Contributions
 
 If you're here, you're probably trying to build something better and that already puts you ahead.
